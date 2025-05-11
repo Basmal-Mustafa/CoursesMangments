@@ -1,0 +1,27 @@
+/* App.css */
+
+/* يجعل كل Component يأخذ عرض الشاشة بالكامل */
+.full-width {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* يفصل كل جزء عن الآخر بمسافة */
+.section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #ffffff;
+}
+
+/* لتنسيق الـ Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* لتوسيط المحتوى إن أردت */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
